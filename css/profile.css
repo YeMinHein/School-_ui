@@ -1,0 +1,27 @@
+.card{
+    background: rgba(213, 210, 210, 0.216) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    margin: 20px 0 10px 20px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.container {
+    padding: 0 20px;
+}
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.title{
+    color: rgba(103, 102, 102, 0.638) ;
+}
+.container{
+    line-height: 20px;
+    padding-bottom: 20px;
+}

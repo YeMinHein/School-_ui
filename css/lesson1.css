@@ -1,0 +1,23 @@
+.card{
+    background: rgba(213, 210, 210, 0.216) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    line-height: 30px;
+}
+.textright{
+    float: right;
+    margin: 10px;
+    height: 150px;
+    width: 100px;
+}
+.textleft{
+    clear: right;
+    float: left;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 10px;
+}
